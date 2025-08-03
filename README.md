@@ -3,11 +3,11 @@
 Existing network address = 192.168.45.0 /24
 
 Departments and the number of hosts (in descending order):
--PRODUCTION - 80 hosts
--IT - 50 hosts
--MARKETING - 40 hosts
--ACCOUNTING - 25 hosts
--HR - 15 hosts
+- PRODUCTION - 80 hosts
+- IT - 50 hosts
+- MARKETING - 40 hosts
+- ACCOUNTING - 25 hosts
+- HR - 15 hosts
 
 ### Assigning network addresses for each department
 ### 1 PRODUCTION - needs 80 hosts
