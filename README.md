@@ -10,21 +10,21 @@ ACCOUNTING - 25 hosts
 HR - 15 hosts
 
 ### Assigning network addresses for each department
-# 1 PRODUCTION - needs 80 hosts
+### 1 PRODUCTION - needs 80 hosts
 Usable hosts = 2⁷ – 2 = 128 – 2 = 126 usable hosts
 Network address: 192.168.45.0/25
 IP range: 192.168.45.0 – 192.168.45.127
 Usable hosts: 192.168.45.1 – 192.168.45.126
 Broadcast address: 192.168.45.127
 
-# 2 IT - needs 50 hosts
+### 2 IT - needs 50 hosts
 Usable hosts = 2⁶ – 2 = 64 – 2 = 62 usable hosts
 Next available: 192.168.45.128/26
 IP range: 192.168.45.128 – 192.168.45.191
 Usable hosts: 192.168.45.129 – 192.168.45.190
 Broadcast: 192.168.45.191
 
-# 3 MARKETING - needs 40 hosts
+### 3 MARKETING - needs 40 hosts
 Usable hosts = 2⁶ – 2 = 62 usable hosts
 Next available: 192.168.45.192/26
 IP range: 192.168.45.192 – 192.168.45.255
@@ -33,14 +33,14 @@ Broadcast: 192.168.45.255
 
 We cannot fit Accounting and HR which need two /27 blocks in 192.168.45.0/24 because it’s already consumed. Therefore, we would need an additional network (another /24) for Accounting and HR.
 
-# 4 ACCOUNTING - needs 25 hosts
+### 4 ACCOUNTING - needs 25 hosts
 Usable hosts = 2⁵ – 2 = 32 – 2 = 30 usable hosts
 Network: 192.168.46.0/27
 Range: 192.168.46.0 – 192.168.46.31
 Usable hosts: 192.168.46.1 – 192.168.46.30
 Broadcast: 192.168.46.31
 
-# 5 HR - needs 15 hosts
+### 5 HR - needs 15 hosts
 Usable hosts = 2⁵ – 2 = 30 usable hosts
 Network: 192.168.46.32/27
 Range: 192.168.46.32 – 192.168.46.63
