@@ -49,12 +49,12 @@ We cannot fit Accounting and HR which need two /27 blocks in 192.168.45.0/24 bec
 
 ## Subnet Allocation Table
 
-| Department  | VLAN Name   | VLAN No. | Required Hosts | Network Address | CIDR | Subnet Mask       |
-|-------------|-------------|----------|----------------|-----------------|------|-------------------|
-| Production  | VLAN_10     | 10       | 80             | 192.168.45.0    | /25  | 255.255.255.128   |
-| IT          | VLAN_20     | 20       | 50             | 192.168.45.128  | /26  | 255.255.255.192   |
-| Marketing   | VLAN_30     | 30       | 40             | 192.168.45.192  | /26  | 255.255.255.192   |
-| Accounting  | VLAN_40     | 40       | 25             | 192.168.46.0    | /27  | 255.255.255.224   |
-| HR          | VLAN_50     | 50       | 15             | 192.168.46.32   | /27  | 255.255.255.224   |
+| Department  | VLAN Name         | VLAN No. | Required Hosts | Network Address | CIDR | Subnet Mask       |
+|-------------|-------------------|----------|----------------|-----------------|------|-------------------|
+| PRODUCTION  | PRODUCTION_10     | 10       | 80             | 192.168.45.0    | /25  | 255.255.255.128   |
+| IT          | IT_20             | 20       | 50             | 192.168.45.128  | /26  | 255.255.255.192   |
+| MARKETING   | MARKETING_30      | 30       | 40             | 192.168.45.192  | /26  | 255.255.255.192   |
+| ACCOUNTING  | ACCOUNTING_40     | 40       | 25             | 192.168.46.0    | /27  | 255.255.255.224   |
+| HR          | HR_50             | 50       | 15             | 192.168.46.32   | /27  | 255.255.255.224   |
 
 
